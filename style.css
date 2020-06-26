@@ -1,0 +1,93 @@
+/* CopyRighted By Muhammad Salman. */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(bgnew.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 320px;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result {
+  height: 120px;
+}
+#history {
+  font-size: 15px;
+  margin: 0 20px;
+  padding-top: 20px;
+  text-align: right;
+  color: #919191;
+  height: 20px;
+}
+#output {
+  font-size: 30px;
+  margin: 10px 20px;
+  text-align: right;
+  height: 60px;
+}
+#keyboard {
+  height: 400px;
+}
+.operator,
+.number,
+.empty {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 15px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+  float: left;
+}
+.operator:focus,
+.number:focus,
+.empty:focus {
+  outline: 0;
+}
+.operator,
+.number {
+  cursor: pointer;
+}
+.empty,
+.number {
+  background-color: #eaedef;
+}
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+button:nth-child(4) {
+  background-color: #20b2aa;
+}
+button:nth-child(8) {
+  background-color: #ffa500;
+}
+button:nth-child(12) {
+  background-color: #f08080;
+}
+button:nth-child(16) {
+  background-color: #7d93e0;
+}
+button:nth-child(20) {
+  background-color: #9477af;
+}
